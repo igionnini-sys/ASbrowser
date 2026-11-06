@@ -1,0 +1,6 @@
+.env
+*.pfx
+*.key
+*.pem
+src/
+out/
