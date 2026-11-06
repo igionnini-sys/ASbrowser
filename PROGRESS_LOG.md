@@ -126,3 +126,15 @@ Problemi: mancano depot_tools e Visual Studio C++; tag Chromium da scegliere.
 Approvazione umana: Pending
 
 Aggiornamento sessione 0003: fetch interrotto su richiesta dell'utente; build da riprendere su altro PC.
+
+## Sessione 0004
+
+Data: 2026-11-06
+Fase: 00
+Task: Commit iniziale e push della repository
+Stato: Completed
+
+Comandi: `git ls-remote https://github.com/igionnini-sys/ASbrowser.git`; `git add -A`; `git commit -m "Initial repository snapshot"`; `git push -u origin master`.
+Risultato: commit `dea44963f1fbaa5e9d5d25c2318caaa06856cc76` pubblicato su `origin/master`; worktree pulito.
+Verifiche: nessun pattern comune di chiavi private o token trovato nei file locali. Test non applicabili (nessun codice eseguibile modificato).
+Approvazione umana: Pending.

@@ -31,3 +31,15 @@ Risultato: OK per OS, disco (341 GB), RAM (56 GB), git, python. FAIL: depot_tool
 Stato: build non avviata; ambiente non pronto.
 
 Sessione 0003 (aggiunta): Build Tools C++ installati dall'utente; ambiente "pronto". depot_tools clonato in C:\src\depot_tools. Fetch di Chromium avviato e **interrotto su richiesta** (~3.7 GB scaricati in C:\src\chromium, incompleto). La build proseguirà su un altro PC. Nessuna build eseguita.
+
+## Fase 00 - Sessione 0004 (2026-11-06)
+
+Obiettivo: creare il commit iniziale e pubblicarlo nel repository GitHub richiesto.
+
+Risultato: commit `dea44963f1fbaa5e9d5d25c2318caaa06856cc76` creato e push di `master` completato; tracking configurato su `origin/master`.
+
+Comandi/verifiche: `git ls-remote https://github.com/igionnini-sys/ASbrowser.git` (nessun ref precedente); scansione locale dei pattern comuni di chiavi private e token (nessuna corrispondenza); `git push -u origin master` (riuscito); `git status --short --branch` (worktree pulito).
+
+Test: non applicabili; nessun codice eseguibile modificato.
+
+Approvazione umana: Pending. Fase e decisioni architetturali invariate.

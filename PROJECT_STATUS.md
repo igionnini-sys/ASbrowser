@@ -12,9 +12,9 @@ Stato generale: Planning
 
 Fase corrente: Phase 00
 
-Ultimo aggiornamento: YYYY-MM-DD
+Ultimo aggiornamento: 2026-11-06
 
-Ultimo commit verificato: NOT AVAILABLE
+Ultimo commit verificato: dea44963f1fbaa5e9d5d25c2318caaa06856cc76
 
 
 
@@ -131,4 +131,3 @@ Preparare ADR-0001 per la scelta della base browser.
 \- Versione portable.
 
 \- Updater di produzione.
-
